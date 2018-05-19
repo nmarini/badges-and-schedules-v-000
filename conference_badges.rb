@@ -6,4 +6,3 @@ end
 def batch_badge_creator(names)
 return  badge_maker(names)
 end
-  
