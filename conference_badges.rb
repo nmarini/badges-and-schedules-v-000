@@ -15,6 +15,6 @@ room_assignments << "Hello, #{name}! You'll be assigned to room #{room + 1}!"}
 end
 
 def printer(attendees)
-batch_badge_creator(attendees)
-assign_rooms(attendees)
+batch_badge_creator(attendees).collect{|badge| puts badge}
+assign_rooms(attendees).collect{|assignment| puts assignment}
 end
