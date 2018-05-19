@@ -6,3 +6,6 @@ end
 def batch_badge_creator(antendees)
 antendees.collect{|antendees| badge_maker(antendees)}
 end
+
+def assign_rooms 
+end
