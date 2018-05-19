@@ -14,6 +14,7 @@ room_assignments << "Hello, #{name}! You'll be assigned to room #{room + 1}!"}
  room_assignments
 end
 
-def printer
-
+def printer(attendees)
+batch_badge_creator(attendees)
+assign_rooms(attendees)
 end
